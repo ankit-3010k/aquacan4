@@ -1,0 +1,384 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <script>
+        function handleValidation(){
+            var phoneNumber = document.getElementById('emailPhone').value;
+            if(phoneNumber.length>10 || phoneNumber.length <10 || phoneNumber.match(/^[A-Za-z]*$/)){
+                alert("Enter a Valid Phone Number")
+            }
+            else{
+                alert("Thanks for your input . We will contact you soon")
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!--  Container div for contact info-->
+    <!-- <div class="container">
+        <div class="contact-info common-text-style"><span class="timings dropdown theme-color"><i class="fa fa-clock-o"
+                    aria-hidden="true"></i> <span id="biz-open">Open Now</span>
+                <div id="biz-open" class="hide"></div>
+                <ul class="dropdown-menu more-info" style="width:220px;box-sizing:content-box;"
+                    role="menu">
+                    <li>Mon : 07:00 AM to 07:00 PM</li>
+                    <li>Tue : 07:00 AM to 07:00 PM</li>
+                    <li>Wed : 07:00 AM to 07:00 PM</li>
+                    <li>Thu : 07:00 AM to 07:00 PM</li>
+                    <li>Fri : 07:00 AM to 07:00 PM</li>
+                    <li>Sat : 07:00 AM to 07:00 PM</li>
+                    <li>Sun : 07:00 AM to 07:00 PM</li>
+                </ul>
+            </span> <a href="tel:+918048030601" title="+918048030601"><i class="fa fa-phone"></i><span
+                    itemprop="telephone">+918048030601</span></a></div>
+    </div> -->
+    <!-- contact div ended-->
+    <div class="container header">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./images/coverimage.png"
+                            style="height:60px;width:180px;" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse right-shift" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gallery.html">PHOTOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="article.html" id="navbarDropdown" role="button">
+                                OTHERS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="ourpresence.html">Our Presence</a>
+                                <a class="dropdown-item" href="companyProfile.html">Company Profile</a>
+                                <a class="dropdown-item" href="manufacturingFacility.html">Our Manufacturing Facilities</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="article.html">View More</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div> <!-- row closed-->
+        <!-- BREADCRUMP SECTION-->
+        <div class="page-breadcrumb container-fluid no-padding">
+            <div class="container">
+                <h3>Our Presence</h3>
+                <ol class="breadcrumb common-text-style">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">All Articles</a></li>
+                    <li class="active">Our Presence</li>
+                </ol>
+            </div>
+            <div class="stickyCrumb animated fadeInDown" id="stickyCrumb" style="display: none;"><span><a
+                        href="index.html">Home</a></span> <span class="active">All
+                    Article</span></div>
+        </div>
+        
+        <!-- BREADCRUMP SECTION ENDED-->
+
+        <div class="padding-100"></div>
+
+        <!-- OUR PRESENCE ARTICLE STARTED-->
+        <div class="blog-listing">
+            <div class="content-area">
+                <article class="type-post image-post">
+                    <div class="entry-contentbox">
+                        <div class="fr-element fr-view">
+                            
+                            <h3 class="heading common-text-style">Our Presence</h3>
+                            <p>1. <span data-sheets-userformat="{" data-sheets-value="{">Aquacan</span><br>xyz, India<br>Email: xyz@Aquacan.in<br></p>
+                            <p><br></p>
+                            <p>2. Aquacan<br>xyz, xyz, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p><br></p>
+                            <p>3.Aquacan.<br>Aquacan, India<br>Email:
+                                info@Aquacan.in<br>
+                            </p>
+                            <p><br></p>
+                            <!-- <p>4. ENERGY BEVERAGES PVT. LTD.<br>Delhi, India<br>Email: info@clearpani.com<br></p>
+                            <p><br></p>
+                            <p>5. ENERGY BEVERAGES PVT. LTD.<br>Bangalore, Karnataka, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>6. ENERGY BEVERAGES PVT. LTD.<br>Baroda, Gujarat, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>7. ENERGY BEVERAGES PVT. LTD.<br>Surat, Gujarat, India<br>Email: info@clearpani.com<br>
+                                  </p>
+                            <p>8. ENERGY BEVERAGES PVT. LTD.<br>Rajkot, Gujarat, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>9. ENERGY BEVERAGES PVT. LTD.<br>Nagpur, Maharashtra, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>10. ENERGY BEVERAGES PVT. LTD.<br>Chennai, Tamil Nadu, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>11. ENERGY BEVERAGES PVT. LTD.<br>Udaipur, Rajasthan, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>12. ENERGY BEVERAGES PVT. LTD.<br>Agra, Uttar Pradesh, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>13. ENERGY BEVERAGES PVT. LTD.<br>Varanasi, Uttar Pradesh, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>14. ENERGY BEVERAGES PVT. LTD.<br>Lucknow, Uttar Pradesh, India<br>Email:
+                                info@clearpani.com<br></p>
+                            <p>15. ENERGY BEVERAGES PVT. LTD.<br>Kanpur, Uttar Pradesh, India<br>Email:
+                                info@clearpani.com<br></p> -->
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="socialData">
+                            <h3 class="block-title">Share:</h3>
+                            <ul>
+                                <li><a href="https://api.whatsapp.com"
+                                    title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com"
+                                    title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com"
+                                    title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"
+                                    title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="http://pinterest.com"
+                                    title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="post-meta"><span class="post-date common-text-style" style="visibility: visible;">23
+                                June, 2023</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- OUR PRESENCE ARTICLE ENDED-->
+
+    </div> <!-- MAIN CONTAINER DIV CLOSED-->
+
+    <!-- FOOTER SECTION STARTED-->
+    <footer class="container-fluid no-left-padding no-right-padding">
+
+        <div class="container footer-1">
+            <div class="row">
+                <aside class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ftr-widget ftr-widget-about">
+                    <div class="footer-logo"><a href="#"><img
+                                src="./images/coverimage.png"
+                                loading="lazy"></a></div>
+                    <p class="common-text-style linkyfy">A quality-intensive, value based refreshment company,
+                        committed to delighting its consumers with a healthy range of wholesome, fun filled products
+                        tha<span>...<a data-target="#myFullBusinessDescription" class="common-text-style view-all"
+                                data-toggle="modal">View more</a></span></p>
+                    <ul>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> <a
+                                href="#"
+                                class="common-text-style">XYZ, XYZ, India</a></li>
+                        <li><i class="fa fa-id-card-o" aria-hidden="true"></i> <a href="mailto:xyz@gmail.com"
+                                class="common-text-style">xyz@gmail.com</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> <span><a class="common-text-style"
+                                    href="tel:9999999999">9999999999 </a>&nbsp;&nbsp;</span></li>
+                    </ul>
+                </aside>
+                <aside class="col-lg-4 col-md-4 col-sm-6 col-xs-12 ftr-widget ftr-widget-newsletter fb-widget">
+                    <h4 class="ftr-widget-title common-text-style">Social</h4>
+                    <div class="fb_widget_container">
+                        <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/"
+                            data-width="270" data-small-header="false" data-adapt-container-width="false"
+                            data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered"
+                            fb-iframe-plugin-query="adapt_container_width=false&amp;app_id=&amp;container_width=282&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fclearpremiumwater%2F&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=false&amp;small_header=false&amp;width=270">
+                            <span style="vertical-align: bottom; width: 270px; height: 130px;"><iframe
+                                    name="f3f9a20acf738b" width="270px" height="1000px"
+                                    data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin"
+                                    frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no"
+                                    allow="encrypted-media"
+                                    src="./images/coverimage.png"
+                                    style="border: none; visibility: visible; width: 270px; height: 130px;"
+                                    class=""></iframe></span>
+                        </div>
+                    </div>
+                    <div class="spread">
+                        <p>Spread the word:</p>
+                        <ul>
+                            <li><a href="https://api.whatsapp.com"
+                                    target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.facebook.com/"
+                                    target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/"
+                                    target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"
+                                    target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://pinterest.com/"
+                                    target="_blank"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <div id="myEnquiry" class="modal fade" role="dialog">
+                    <div class="modal-dialog common-text-style">
+                        <div class="modal-content">
+                            <div class="modal-header" style="border:0"><button type="button" class="close"
+                                    data-dismiss="modal">×</button>
+                                <h4 class="hide modal-title">Modal Header</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-sm-12">
+                                    <form id="contact-form2" class="contactus-form2">
+                                        <h3 class="contact2-title common-text-style">Questions? We'll be glad to
+                                            answer them.</h3>
+                                        <div class="row">
+
+
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <textarea rows="5" name="form_message"
+                                                        class="form-control common-text-style" id="input_message"
+                                                        placeholder="Message" style="resize:vertical"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group"><input type="text" name="form_contact"
+                                                        class="form-control common-text-style" id="input_email"
+                                                        placeholder="Email / Phone Number"><input type="hidden"
+                                                        name="kid"><input type="hidden" name="datatype"></div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="form-group"><input type="submit" id="submit_ttb"
+                                                        onclick="contactEnquiry(event)"
+                                                        class="submit-btn common-text-style"></div>
+                                            </div>
+                                            <div id="alert-msg_1" class="alert-msg"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="padding:0;border:0"><button type="button"
+                                    class="hide btn btn-default theme-button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="myFullBusinessDescription" class="modal fade" role="dialog" style="display: none;">
+                    <div class="modal-dialog common-text-style">
+                        <div class="modal-content">
+                            <div class="modal-header"><button type="button" class="close"
+                                    data-dismiss="modal">×</button>
+                                <h4 class="modal-title">Aquacan</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="description">A quality-intensive, value based refreshment company,
+                                    committed to delighting its consumers with a healthy range of wholesome, fun
+                                    filled products that are manufactured on state-of-the-art technologies. We are
+                                    Manufacturer of : - 200 ML Packaged Drinking Water Bottle 500 ML Packaged
+                                    Drinking Water Bottle 750 ML Packaged Drinking Water Bottle 1 Liter Packaged
+                                    Drinking Water Bottle Customized Mineral Water Bottle.
+                                    xyz || xyz || xyz</p>
+                            </div>
+                            <div class="modal-footer"><button type="button" class="btn btn-default theme-button"
+                                    data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="myMultipleCurrency" class="modal fade" role="dialog">
+                    <div class="modal-dialog common-text-style">
+                        <div class="modal-content">
+                            <div class="modal-header"><button type="button" class="close"
+                                    data-dismiss="modal">×</button>
+                                <h4 class="modal-title">Alert</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>Sorry! We cannot process an order with multiple currencies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="border:0"><button type="button"
+                                    class="btn btn-default theme-button" data-dismiss="modal">Ok</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="myDimensionsIsse" class="modal fade" role="dialog">
+                    <div class="modal-dialog common-text-style">
+                        <div class="modal-content">
+                            <div class="modal-header"><button type="button" class="close"
+                                    data-dismiss="modal">×</button>
+                                <h4 class="modal-title">Alert</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p>Cannot add the item to shopping cart right now. Please contact the
+                                                business owner for assistance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="border:0"><button type="button"
+                                    class="btn btn-default theme-button" data-dismiss="modal">Ok</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="mySubscriptionModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="width:100%">
+                            <div class="modal-header padding-20"><button type="button" class="close"
+                                    data-dismiss="modal">×</button>
+                                <h4 class="modal-title text-uppercase">Subscription</h4>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p id="subscriptionMessage"></p>
+                            </div>
+                            <div class="modal-footer" style="border:0;padding:0 20px 20px 20px"><button type="button"
+                                    class="btn btn-default theme-button subscription-button"
+                                    data-dismiss="modal">Okay</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container common-text-style">
+                <p>©<span>2023</span> | Made in India with <a href="#"
+                        target="_blank">xyz</a></p>
+                <p class="sitemap"><span class="report-abuse" onclick="reportAbuse()"
+                        title="Click here to report any content on this website">Report Abuse</span> &nbsp;�&nbsp;
+                    <a href="#">SITEMAP</a>
+                </p>
+            </div>
+        </div>
+        <div id="fb-root" class=" fb_reset">
+            <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                <div></div>
+            </div>
+        </div>
+        <script>function reportAbuse() { ga("send", "event", "REPORTABUSE", "click", document.getElementById("GET-VALUE(FLOATING-TAG)").innerText); KitsuneReportAbuse() } (function (n, t, i) { var r, u = n.getElementsByTagName(t)[0]; n.getElementById(i) || (r = n.createElement(t), r.id = i, r.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0", u.parentNode.insertBefore(r, u)) })(document, "script", "facebook-jssdk"); var fptag = document.getElementById("fptag").innerText; fptag !== "CAIRO" && document.getElementById("policy") && (document.getElementById("policy").style.display = "none")</script>
+        <div id="primary-color" class="primary-color" style="display:none"></div>
+    </footer>
+
+</body>
+
+</html>
